@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Nama Anda</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/IMG-20250202-WA0005.jpg" alt="Foto Profil" class="profile-pic">
+            <h1>Nurdalifa Marzuki</h1>
+            <p>Mahasiswa | Teknik Informatika</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#portfolio">Portofolio</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Halo, Saya Adalah Seorang Mahasiswa Dari Universitas Khairun Ternate dengan Program Studi Teknik Informatika. Asal Saya Dari Desa Kebun Raja Kec. Maffa Kab. Halmahera-Tengah.</p>
+    <br><hr width="full script"><br>
+            <h3>BIO DATA</h3>
+            <ul class="skills">
+                <li>Nama Lengkap : Nurdalifa Marzuki (Panggil Aja Ifa)</li>
+                <li>Umur : 20 Tahun</li>
+                <li>Agama : Islam</li>
+                <li>Status : Pacaran</li>
+            </ul>
+            <br><hr>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="gallery">
+                <div class="item"><img src="img/IMG-20250202-WA0020.jpg" alt="Proyek 1"><p><i>Foto 1</i></p></div>
+                <div class="item"><img src="img/IMG-20250202-WA0019.jpg" alt="Proyek 2"><p><i>Foto 2</i></p></div>
+                <div class="item"><img src="img/IMG-20250202-WA0020.jpg" alt="Proyek 3"><p><i>Foto 3</i></p></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <p>Email: <a href="mailto:nurdalifamarzuki05@gmail.com">My Email</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100082268614180">My Facebook</a></p>
+            <p>Youtube: <a href="https://www.youtube.com/@NurdalifaMarzuki-zc8di">My Youtube</a></p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nurdalifa | nurdalifamarzuki05@gmail.coms</p>
+        </div>
+    </footer>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            text-align: center;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 40px 0;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 20px;
+        }
+        .skills li {
+            background: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-weight: bold;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .item {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 30%;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .contact a {
+            color: #ff416c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</body>
+</html>
